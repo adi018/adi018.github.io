@@ -1,7 +1,7 @@
 baseURL: https://adi018.github.io
 
 languageCode: en-us
-title: "Aditya's Blog"
+title: "Aditya's Blogs"
 
 # Use Hugo modules to add theme
 module:
@@ -23,7 +23,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "Aditya-main's Blog"
+    title: "Aditya's Personal Blog"
     weight: 1
   #bn:
   #  languageCode: bn
