@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/adi018/adi018.github.io
 
 go 1.21
 
