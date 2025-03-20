@@ -23,7 +23,7 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "Aditya's Personal Blog"
+    title: "Aditya's Blog"
     weight: 1
   #bn:
   #  languageCode: bn
