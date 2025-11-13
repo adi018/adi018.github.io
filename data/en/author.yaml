@@ -6,8 +6,8 @@ greeting: "Hi, I am"
 image: "images/author/aditya_photo.png"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "aditya.professional18@gmail.com"
-  phone: "+49 1783142021"
+  email: "aditya.ka018@gmail.com"
+  #phone: "+49 1783142021"
   github: adi018
   linkedin: akagarwal018
   #researchgate: john-doe
