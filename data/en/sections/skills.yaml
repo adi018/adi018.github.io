@@ -90,7 +90,7 @@ skills:
   url: "https://prometheus.io/"
 
 - name: Cloud Computing
-  logo: /images/sections/skills/aws.svg
+  logo: /images/sections/skills/AWS.svg
   summary: "Worked with AWS services like EC2, S3, Lambda, API Gateway, CloudWatch etc. for hosting applications and serverless computing."
   categories: ["others"]
 
