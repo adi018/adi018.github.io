@@ -1,0 +1,20 @@
+{{/* Minimal fallback for _internal/opengraph.html used by themes */}}
+{{ $title := cond (ne .Title "") .Title .Site.Title }}
+{{ $desc := cond (ne .Params.description "") .Params.description (or .Description .Site.Params.description) }}
+<meta property="og:title" content="{{ $title | html }}">
+{{ if $desc }}<meta property="og:description" content="{{ $desc | html }}">{{ end }}
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with first 1 (or .Params.images (.Resources.Match "images/*")) }}
+  {{ $img := index . 0 }}
+  {{ if $img.Permalink }}
+    <meta property="og:image" content="{{ $img.Permalink | absURL }}">
+  {{ else }}
+    <meta property="og:image" content="{{ $img | absURL }}">
+  {{ end }}
+{{ else }}
+  {{ if .Site.Params.logo.main }}
+    <meta property="og:image" content="{{ .Site.Params.logo.main | absURL }}">
+  {{ end }}
+{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title | html }}">
+<meta property="og:type" content="article">
