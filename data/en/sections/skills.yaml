@@ -25,24 +25,59 @@ buttons:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
-
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Expert in Python programming. Used for AI/ML model development, workflow automation, scripting, tooling, competitive coding etc."
   categories: ["basic", "language"]
-  url: "https://golang.org/"
+  url: "https://www.python.org/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+- name: C++
+  logo: /images/sections/skills/c++.png
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["basic", "language"]
+
+- name: SQL
+  logo: /images/sections/skills/c++.png
+  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  categories: ["basic", "language"]
 
 - name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: PyTorch
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: TensorFlow
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: MLflow
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: LangChain
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: CUDA
+  logo: /images/sections/skills/docker.svg
+  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  categories: ["container"]
+  url: "https://www.docker.com/"
+
+- name: Hugging Face
   logo: /images/sections/skills/docker.svg
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   categories: ["container"]
@@ -54,7 +89,17 @@ skills:
   categories: ["basic"]
   url: "https://prometheus.io/"
 
+- name: Cloud Computing
+  logo: /images/sections/skills/aws.svg
+  summary: "Worked with AWS services like EC2, S3, Lambda, API Gateway, CloudWatch etc. for hosting applications and serverless computing."
+  categories: ["others"]
+
 - name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  categories: ["others"]
+
+- name: Windows
   logo: /images/sections/skills/linux.png
   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
   categories: ["others"]
@@ -65,7 +110,4 @@ skills:
   categories: ["basic"]
   url: "https://git-scm.com/"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+
